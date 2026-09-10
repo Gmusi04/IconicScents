@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  /* Paleta minimalista de Iconic Scents: negro, marfil y dorado. */
+  --color-cream: #f8f6f2;
+  --color-parchment: #efeae2;
+  --color-crust: #e4ddd0;
+  --color-ink: #0f0e0d;
+  --color-ink-soft: #5c5650;
+  --color-gold: #b08d57;
+  --color-gold-dark: #8f6f3f;
+  --color-line: rgba(15, 14, 13, 0.12);
+
+  --font-serif: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-parchment: var(--color-parchment);
+  --color-crust: var(--color-crust);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-gold: var(--color-gold);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-line: var(--color-line);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+/* Textura de grano sutil, autocontenida (sin peticiones externas) */
+.grain-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>");
+  background-size: 160px 160px;
+}
+
+.container-editorial {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container-editorial {
+    padding-inline: 2.5rem;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+@keyframes underline-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
