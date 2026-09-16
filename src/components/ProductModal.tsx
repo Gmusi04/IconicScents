@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { PhotoView, type PhotoKind } from "@/components/PhotoView";
 import { familyProfile, familyTint, type Product } from "@/data/products";
@@ -33,17 +34,27 @@ export function ProductModal({
 
   return (
     <div className="fixed inset-0 z-[120] flex items-end justify-center md:items-center">
-      <button
+      <motion.button
         aria-label="Cerrar"
         onClick={onClose}
         className="absolute inset-0 bg-[var(--color-ink)]/70"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.25, ease: "easeOut" }}
       />
 
-      <div className="relative flex max-h-[92svh] w-full flex-col overflow-y-auto rounded-t-3xl bg-[var(--color-cream)] md:max-h-[88vh] md:max-w-3xl md:flex-row md:rounded-3xl">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.97, y: 16 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.97, y: 16 }}
+        transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
+        className="relative flex max-h-[92svh] w-full flex-col overflow-y-auto rounded-t-3xl bg-[var(--color-cream)] md:max-h-[88vh] md:max-w-3xl md:flex-row md:rounded-3xl"
+      >
         <button
           aria-label="Cerrar"
           onClick={onClose}
-          className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-ink)]/80 text-lg text-[var(--color-cream)]"
+          className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-ink)]/80 text-lg text-[var(--color-cream)] transition duration-150 ease-out active:scale-90"
         >
           &times;
         </button>
@@ -64,7 +75,7 @@ export function ProductModal({
               <button
                 key={p.src}
                 onClick={() => setActive(i)}
-                className={`relative h-14 w-14 shrink-0 overflow-hidden rounded-lg border-2 ${
+                className={`relative h-14 w-14 shrink-0 overflow-hidden rounded-lg border-2 transition duration-150 ease-out active:scale-95 ${
                   i === active ? "border-[var(--color-gold)]" : "border-transparent"
                 }`}
               >
@@ -115,7 +126,7 @@ export function ProductModal({
                   <button
                     aria-label="Quitar uno"
                     onClick={() => setQty(product.slug, inCart.qty - 1)}
-                    className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)]"
+                    className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)] transition duration-150 ease-out active:scale-90"
                   >
                     −
                   </button>
@@ -123,7 +134,7 @@ export function ProductModal({
                   <button
                     aria-label="Agregar uno"
                     onClick={() => setQty(product.slug, inCart.qty + 1)}
-                    className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)]"
+                    className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)] transition duration-150 ease-out active:scale-90"
                   >
                     +
                   </button>
@@ -131,7 +142,7 @@ export function ProductModal({
               ) : (
                 <button
                   onClick={() => add(product)}
-                  className="rounded-full bg-[var(--color-gold)] px-5 py-2.5 text-sm font-medium text-[var(--color-ink)] transition-colors hover:bg-[var(--color-gold-dark)]"
+                  className="rounded-full bg-[var(--color-gold)] px-5 py-2.5 text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-gold-dark)]"
                 >
                   Agregar al carrito
                 </button>
@@ -147,7 +158,7 @@ export function ProductModal({
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

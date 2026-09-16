@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
+import { Toaster } from "sonner";
 import { Providers } from "@/components/Providers";
 import { site } from "@/data/site";
 import "./globals.css";
@@ -47,14 +48,14 @@ export const metadata: Metadata = {
     siteName: "Iconic Scents",
     locale: "es_MX",
     type: "website",
-    images: [{ url: "/images/hero-perfume.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/logo.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Iconic Scents | Perfumería árabe y de diseñador",
     description:
       "Perfumes árabes y de diseñador 100% originales. Catálogo y pedidos por Instagram y WhatsApp.",
-    images: ["/images/hero-perfume.jpg"],
+    images: ["/logo.png"],
   },
   alternates: { canonical: siteUrl },
 };
@@ -77,6 +78,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <Providers>{children}</Providers>
+        <Toaster
+          position="top-center"
+          toastOptions={{
+            style: {
+              background: "var(--color-ink)",
+              color: "var(--color-cream)",
+              border: "1px solid var(--color-gold)",
+              fontFamily: "var(--font-sans)",
+              fontSize: "0.875rem",
+            },
+          }}
+        />
       </body>
     </html>
   );

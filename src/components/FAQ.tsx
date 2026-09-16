@@ -69,7 +69,7 @@ export function FAQ() {
                 <button
                   onClick={() => setOpen(isOpen ? null : i)}
                   aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-4 py-5 text-left"
+                  className="flex w-full items-center justify-between gap-4 py-5 text-left transition duration-150 ease-out active:scale-[0.99]"
                 >
                   <span className="text-base font-medium text-[var(--color-ink)] md:text-lg">
                     {f.q}
@@ -77,9 +77,11 @@ export function FAQ() {
                   <ChevronIcon open={isOpen} />
                 </button>
                 <div
-                  className={`grid overflow-hidden transition-all duration-300 ease-out ${
-                    isOpen ? "grid-rows-[1fr] pb-5 opacity-100" : "grid-rows-[0fr] opacity-0"
-                  }`}
+                  className={`grid overflow-hidden ${isOpen ? "grid-rows-[1fr] pb-5 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+                  style={{
+                    transition:
+                      "grid-template-rows 300ms var(--ease-in-out), opacity 250ms var(--ease-out), padding-bottom 300ms var(--ease-in-out)",
+                  }}
                 >
                   <div className="min-h-0">
                     <p className="max-w-2xl text-sm leading-relaxed text-[var(--color-ink-soft)] md:text-base">

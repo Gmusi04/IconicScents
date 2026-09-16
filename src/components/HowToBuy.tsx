@@ -37,7 +37,7 @@ export function HowToBuy() {
             href={site.whatsapp.href}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-[var(--color-gold)] px-6 py-3 text-sm font-medium text-[var(--color-ink)] transition-colors hover:bg-[var(--color-gold-dark)]"
+            className="rounded-full bg-[var(--color-gold)] px-6 py-3 text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-gold-dark)]"
           >
             Escribir por WhatsApp
           </a>
@@ -45,7 +45,7 @@ export function HowToBuy() {
             href={site.social.instagram}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-[var(--color-cream)]/30 px-6 py-3 text-sm text-[var(--color-cream)] transition-colors hover:bg-[var(--color-cream)]/10"
+            className="rounded-full border border-[var(--color-cream)]/30 px-6 py-3 text-sm text-[var(--color-cream)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-cream)]/10"
           >
             Escribir por Instagram
           </a>

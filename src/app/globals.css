@@ -13,6 +13,12 @@
 
   --font-serif: var(--font-fraunces);
   --font-sans: var(--font-inter);
+
+  /* Curvas de easing — ver .agents/skills/animate. Las CSS por defecto son
+     demasiado débiles; estas tienen el "punch" de una animación intencional. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 @theme inline {
@@ -122,4 +128,50 @@ body {
   height: 1px;
   width: 3.5rem;
   background: var(--color-line);
+}
+
+/* Feedback de presión: cualquier elemento pulsable debería sentirse físico.
+   Ver .agents/skills/emil-design-eng. */
+.press {
+  transition: transform 160ms var(--ease-out);
+}
+
+.press:active {
+  transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .press,
+  .press:active {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* Entrada de la portada: rara/primera-vez por sesión → aquí sí cabe algo de
+   presencia. CSS puro para que pinte antes de que hidrate React. */
+@keyframes enter-fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.enter-fade-up {
+  opacity: 0;
+  animation: enter-fade-up 700ms var(--ease-out) forwards;
+}
+
+.enter-delay-1 { animation-delay: 90ms; }
+.enter-delay-2 { animation-delay: 180ms; }
+.enter-delay-3 { animation-delay: 270ms; }
+
+@keyframes enter-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enter-fade-up {
+    animation: enter-fade 300ms ease forwards;
+    animation-delay: 0ms !important;
+  }
 }

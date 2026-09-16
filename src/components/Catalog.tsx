@@ -1,5 +1,6 @@
 "use client";
 
+import { AnimatePresence } from "framer-motion";
 import { useMemo, useState } from "react";
 import { PhotoView, type PhotoKind } from "@/components/PhotoView";
 import { ProductModal } from "@/components/ProductModal";
@@ -35,7 +36,7 @@ function ProductCard({
 
   return (
     <Reveal delay={delay}>
-      <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-parchment)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--color-gold)]/60 hover:shadow-[0_16px_40px_-16px_rgba(0,0,0,0.25)]">
+      <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-parchment)] transition-[transform,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-[var(--color-gold)]/60 hover:shadow-[0_16px_40px_-16px_rgba(0,0,0,0.25)]">
         <button onClick={onOpen} className="relative aspect-square overflow-hidden text-left">
           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
             <PhotoView
@@ -80,7 +81,7 @@ function ProductCard({
                 <button
                   aria-label="Quitar uno"
                   onClick={() => setQty(p.slug, inCart.qty - 1)}
-                  className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)] md:h-7 md:w-7"
+                  className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)] transition duration-150 ease-out active:scale-90 md:h-7 md:w-7"
                 >
                   −
                 </button>
@@ -88,7 +89,7 @@ function ProductCard({
                 <button
                   aria-label="Agregar uno"
                   onClick={() => setQty(p.slug, inCart.qty + 1)}
-                  className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)] md:h-7 md:w-7"
+                  className="flex h-8 w-8 items-center justify-center text-[var(--color-ink)] transition duration-150 ease-out active:scale-90 md:h-7 md:w-7"
                 >
                   +
                 </button>
@@ -96,7 +97,7 @@ function ProductCard({
             ) : (
               <button
                 onClick={() => add(p)}
-                className="rounded-full border border-[var(--color-ink)]/20 px-3 py-2 text-xs text-[var(--color-ink)] transition-colors hover:border-[var(--color-ink)]/50 md:py-1.5"
+                className="rounded-full border border-[var(--color-ink)]/20 px-3 py-2 text-xs text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.95] hover:border-[var(--color-ink)]/50 md:py-1.5"
               >
                 Agregar
               </button>
@@ -154,7 +155,7 @@ export function Catalog({ products }: { products: CatalogProduct[] }) {
                 setActiveBrand(ALL_BRANDS);
                 setVisible(PAGE_SIZE);
               }}
-              className={`rounded-full border px-3.5 py-2 text-sm transition-colors md:px-5 ${
+              className={`rounded-full border px-3.5 py-2 text-sm transition duration-150 ease-out active:scale-[0.96] md:px-5 ${
                 activeTier === t
                   ? "border-[var(--color-gold)] bg-[var(--color-gold)] text-[var(--color-ink)]"
                   : "border-[var(--color-ink)]/15 text-[var(--color-ink)]/70 hover:border-[var(--color-ink)]/40"
@@ -198,7 +199,7 @@ export function Catalog({ products }: { products: CatalogProduct[] }) {
           <div className="mt-8 flex justify-center md:mt-10">
             <button
               onClick={() => setVisible((v) => v + PAGE_SIZE)}
-              className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition-colors hover:border-[var(--color-ink)]/50"
+              className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:border-[var(--color-ink)]/50"
             >
               Mostrar más
             </button>
@@ -206,7 +207,9 @@ export function Catalog({ products }: { products: CatalogProduct[] }) {
         )}
       </div>
 
-      {selected && <ProductModal product={selected} onClose={() => setSelected(null)} />}
+      <AnimatePresence>
+        {selected && <ProductModal product={selected} onClose={() => setSelected(null)} />}
+      </AnimatePresence>
     </section>
   );
 }

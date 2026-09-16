@@ -9,6 +9,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { toast } from "sonner";
 import type { Product } from "@/data/products";
 
 export type CartItem = {
@@ -71,6 +72,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       }
       return [...prev, { slug: product.slug, name: product.name, brand: product.brand, price: product.price, qty: 1 }];
     });
+    toast(product.name, { description: "Agregado a tu pedido" });
   }, []);
 
   const remove = useCallback((slug: string) => {

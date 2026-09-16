@@ -1,5 +1,6 @@
 "use client";
 
+import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { site } from "@/data/site";
 
@@ -21,7 +22,7 @@ export function Header({ logoSrc }: { logoSrc: string | null }) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
+      className={`fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow] duration-500 ease-out ${
         scrolled || open
           ? "bg-[var(--color-cream)]/90 backdrop-blur-md shadow-[0_1px_0_var(--color-line)]"
           : "bg-[var(--color-cream)]"
@@ -56,7 +57,7 @@ export function Header({ logoSrc }: { logoSrc: string | null }) {
             href={site.social.instagram}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-current/30 px-4 py-2 text-sm transition-colors hover:border-current/60"
+            className="rounded-full border border-current/30 px-4 py-2 text-sm transition duration-150 ease-out active:scale-[0.97] hover:border-current/60"
           >
             Instagram
           </a>
@@ -64,7 +65,7 @@ export function Header({ logoSrc }: { logoSrc: string | null }) {
             href={site.whatsapp.href}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-[var(--color-gold)] px-4 py-2 text-sm font-medium text-[var(--color-ink)] transition-colors hover:bg-[var(--color-gold-dark)]"
+            className="rounded-full bg-[var(--color-gold)] px-4 py-2 text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-gold-dark)]"
           >
             WhatsApp
           </a>
@@ -74,41 +75,50 @@ export function Header({ logoSrc }: { logoSrc: string | null }) {
           aria-label={open ? "Cerrar menú" : "Abrir menú"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 md:hidden"
+          className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 active:scale-90 transition-transform duration-150 ease-out md:hidden"
         >
           <span
-            className={`h-px w-6 bg-current transition-transform ${open ? "translate-y-[3.5px] rotate-45" : ""}`}
+            className={`h-px w-6 bg-current transition-transform duration-200 ease-out ${open ? "translate-y-[3.5px] rotate-45" : ""}`}
           />
           <span
-            className={`h-px w-6 bg-current transition-transform ${open ? "-translate-y-[3.5px] -rotate-45" : ""}`}
+            className={`h-px w-6 bg-current transition-transform duration-200 ease-out ${open ? "-translate-y-[3.5px] -rotate-45" : ""}`}
           />
         </button>
       </div>
 
-      {open && (
-        <nav className="border-t border-[var(--color-line)] bg-[var(--color-cream)] text-[var(--color-ink)] md:hidden">
-          <div className="container-editorial flex flex-col gap-1 py-4">
-            {links.map((l) => (
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.nav
+            key="mobile-nav"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: [0.23, 1, 0.32, 1] }}
+            className="overflow-hidden border-t border-[var(--color-line)] bg-[var(--color-cream)] text-[var(--color-ink)] md:hidden"
+          >
+            <div className="container-editorial flex flex-col gap-1 py-4">
+              {links.map((l) => (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className="rounded-lg px-2 py-3 text-base transition duration-150 ease-out active:scale-[0.98]"
+                >
+                  {l.label}
+                </a>
+              ))}
               <a
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className="rounded-lg px-2 py-3 text-base"
+                href={site.whatsapp.href}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-2 rounded-full bg-[var(--color-gold)] px-4 py-3 text-center text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97]"
               >
-                {l.label}
+                WhatsApp
               </a>
-            ))}
-            <a
-              href={site.whatsapp.href}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-2 rounded-full bg-[var(--color-gold)] px-4 py-3 text-center text-sm font-medium text-[var(--color-ink)]"
-            >
-              WhatsApp
-            </a>
-          </div>
-        </nav>
-      )}
+            </div>
+          </motion.nav>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

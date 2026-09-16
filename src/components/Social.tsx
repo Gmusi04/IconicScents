@@ -25,7 +25,7 @@ export function Social({
             href={site.social.instagram}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full border border-[var(--color-ink)]/20 px-5 py-2.5 text-sm text-[var(--color-ink)] transition-colors hover:border-[var(--color-ink)]/50"
+            className="rounded-full border border-[var(--color-ink)]/20 px-5 py-2.5 text-sm text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:border-[var(--color-ink)]/50"
           >
             Ver perfil
           </a>

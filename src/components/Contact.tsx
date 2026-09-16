@@ -24,7 +24,7 @@ export function Contact() {
               href={site.whatsapp.href}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full bg-[var(--color-gold)] px-6 py-3 text-sm font-medium text-[var(--color-ink)] transition-colors hover:bg-[var(--color-gold-dark)]"
+              className="rounded-full bg-[var(--color-gold)] px-6 py-3 text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-gold-dark)]"
             >
               WhatsApp · {site.whatsapp.display}
             </a>
@@ -32,14 +32,14 @@ export function Contact() {
               href={site.social.instagram}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition-colors hover:border-[var(--color-ink)]/50"
+              className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:border-[var(--color-ink)]/50"
             >
               Instagram · {site.social.instagramHandle}
             </a>
             {site.email && (
               <a
                 href={`mailto:${site.email}`}
-                className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition-colors hover:border-[var(--color-ink)]/50"
+                className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:border-[var(--color-ink)]/50"
               >
                 {site.email}
               </a>
