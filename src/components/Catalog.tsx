@@ -35,7 +35,7 @@ function ProductCard({
 
   return (
     <Reveal delay={delay}>
-      <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-parchment)]">
+      <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-parchment)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--color-gold)]/60 hover:shadow-[0_16px_40px_-16px_rgba(0,0,0,0.25)]">
         <button onClick={onOpen} className="relative aspect-square overflow-hidden text-left">
           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105">
             <PhotoView
@@ -62,6 +62,11 @@ function ProductCard({
             <h3 className="font-serif-display text-lg text-[var(--color-ink)] md:text-xl">
               {p.name}
             </h3>
+            <div className="flex flex-wrap items-center gap-1.5 text-[10px] uppercase tracking-[0.1em] text-[var(--color-ink-soft)]">
+              <span className="rounded-full border border-[var(--color-line)] px-2 py-0.5">{p.family}</span>
+              <span className="rounded-full border border-[var(--color-line)] px-2 py-0.5">{p.gender}</span>
+              {p.size && <span className="rounded-full border border-[var(--color-line)] px-2 py-0.5">{p.size}</span>}
+            </div>
             <p className="line-clamp-2 text-sm leading-relaxed text-[var(--color-ink-soft)]">
               {p.description}
             </p>

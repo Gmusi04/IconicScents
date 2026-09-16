@@ -1,5 +1,6 @@
 import { Catalog } from "@/components/Catalog";
 import { Contact } from "@/components/Contact";
+import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
@@ -7,6 +8,7 @@ import { HowToBuy } from "@/components/HowToBuy";
 import { MobileTabBar } from "@/components/MobileTabBar";
 import type { PhotoKind } from "@/components/PhotoView";
 import { Social } from "@/components/Social";
+import { TrustBar } from "@/components/TrustBar";
 import { products } from "@/data/products";
 import { photoExists } from "@/lib/photoExists";
 
@@ -44,9 +46,11 @@ export default function Home() {
       <Header logoSrc={logoSrc} />
       <main className="pb-16 md:pb-0">
         <Hero />
+        <TrustBar />
         <Catalog products={productsWithExists} />
         <HowToBuy />
         <Social feed={socialWithExists} />
+        <FAQ />
         <Contact />
       </main>
       <Footer logoSrc={logoSrc} />
