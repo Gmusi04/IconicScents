@@ -154,7 +154,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Fresco y especiado, con toques amaderados; el clásico de entrada de Hawas.",
     featured: true,
   },
@@ -166,7 +166,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Floral afrutado, ligero y femenino, pensado para el día.",
   },
   {
@@ -177,7 +177,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Versión helada y acuática del Hawas original, muy fresca.",
   },
   {
@@ -188,7 +188,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Más intenso y dulce que el original, con fondo ambarado.",
   },
   {
@@ -199,7 +199,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1170,
+    price: 1150,
     description: "Amaderado oscuro y envolvente, para la noche.",
   },
   {
@@ -210,7 +210,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1320,
+    price: 1300,
     description: "Fresco tropical, cítrico y acuático, ideal para el verano.",
   },
   {
@@ -221,7 +221,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1320,
+    price: 1300,
     description: "Especiado e intenso, con un carácter cálido y picante.",
   },
   {
@@ -232,7 +232,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1320,
+    price: 1300,
     description: "Amaderado potente y de larga duración.",
   },
   {
@@ -243,7 +243,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Acuático marino, fresco y salino.",
   },
   {
@@ -254,7 +254,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Amaderado especiado, sofisticado y duradero.",
   },
   {
@@ -265,7 +265,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Verde y cítrico, ligero y energizante.",
   },
   {
@@ -276,7 +276,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Mandarina jugosa sobre un fondo fresco y ligero.",
   },
   {
@@ -287,7 +287,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Amaderado aromático clásico, versátil para el día a día.",
   },
   {
@@ -298,7 +298,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Fresco y potente, con salida especiada.",
   },
   {
@@ -309,7 +309,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Versión fresca y cítrica de Odyssey Homme.",
   },
   {
@@ -320,7 +320,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Acuático fresco, ideal para el calor.",
   },
   {
@@ -331,7 +331,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Especiado moderno, con un toque ahumado.",
   },
   {
@@ -342,7 +342,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Oriental intenso, con fondo ambarado profundo.",
   },
   {
@@ -353,7 +353,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Cítrico de limón fresco y ligero.",
   },
   {
@@ -364,7 +364,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Gourmand dulce y goloso, con notas de golosina.",
   },
   {
@@ -375,7 +375,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Amaderado aromático con carácter salvaje y fresco.",
   },
   {
@@ -386,7 +386,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Gourmand de chocolate y especias cálidas.",
   },
   {
@@ -397,7 +397,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Oud clásico, amaderado y resinoso.",
   },
   {
@@ -408,7 +408,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Amaderado elegante con salida fresca.",
   },
   {
@@ -419,7 +419,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Gourmand suave a malvavisco y vainilla.",
   },
   {
@@ -430,7 +430,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Versión más intensa y dulce de Mandarin Sky.",
   },
   {
@@ -441,7 +441,7 @@ export const products: Product[] = [
     family: "Afrutado",
     gender: "Ella",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Afrutado tropical, jugoso y alegre.",
   },
   {
@@ -452,7 +452,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Fresco aromático con fondo amaderado.",
   },
   {
@@ -463,7 +463,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Amaderado especiado, discreto y versátil.",
   },
   {
@@ -496,7 +496,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Amaderado moderno, con salida fresca y fondo cálido.",
   },
   {
@@ -507,7 +507,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Especiado intenso, urbano y sofisticado.",
   },
   {
@@ -518,7 +518,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Amaderado de gran estela, pensado para durar.",
   },
   {
@@ -529,7 +529,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Oriental ambarado, cálido y elegante.",
   },
   {
@@ -540,7 +540,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Floral afrutado, fresco y llamativo.",
   },
   {
@@ -551,7 +551,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1320,
+    price: 1300,
     description: "Amaderado afrutado de alta gama, fresco y sofisticado.",
     featured: true,
   },
@@ -563,7 +563,7 @@ export const products: Product[] = [
     family: "Afrutado",
     gender: "Él",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "El más buscado de Armaf: piña, abedul y ámbar gris.",
     featured: true,
   },
@@ -586,7 +586,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Oud profundo y resinoso, de larga duración.",
   },
   {
@@ -608,7 +608,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Gourmand dulce y goloso, versión Candy de Yara.",
   },
   {
@@ -619,7 +619,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Especiado oriental con toques dulces.",
   },
   {
@@ -630,7 +630,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Floral dulce y cálido, cercano y femenino.",
   },
   {
@@ -641,7 +641,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Gourmand a bourbon y especias, cálido e intenso.",
   },
   {
@@ -652,7 +652,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Floral suave con fondo dulce y almizclado.",
   },
   {
@@ -663,7 +663,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "El clásico floral dulce de Lattafa, uno de los más vendidos.",
     featured: true,
   },
@@ -675,7 +675,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Oriental especiado y dulce: canela, vainilla y tonka.",
     featured: true,
   },
@@ -687,7 +687,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Versión de Khamrah con notas de café.",
   },
   {
@@ -709,7 +709,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Khamrah con un fondo ahumado y más intenso.",
   },
   {
@@ -742,7 +742,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 670,
+    price: 650,
     description: "Aromático fresco, elegante y versátil.",
   },
   {
@@ -786,7 +786,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Floral oriental, dulce y envolvente.",
   },
   {
@@ -808,7 +808,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Floral fresco con fondo dulce.",
   },
   {
@@ -830,7 +830,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Aromático fresco, limpio y versátil.",
   },
   {
@@ -841,7 +841,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Oriental ambarado, profundo y elegante.",
   },
   {
@@ -852,7 +852,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Oriental cálido con fondo ambarado.",
   },
   {
@@ -863,7 +863,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Amaderado intenso, para la noche.",
   },
   {
@@ -874,7 +874,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Floral frutal, dulce y alegre.",
   },
   {
@@ -885,7 +885,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Gourmand oriental, dulce y resinoso.",
   },
   {
@@ -896,7 +896,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Versión más suave y natural de Mayar.",
   },
   {
@@ -907,7 +907,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Versión más concentrada e intensa de Teriaq.",
   },
   {
@@ -918,7 +918,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Frutal dulce con notas de cereza.",
   },
   {
@@ -929,7 +929,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Oriental ambarado de alta gama, cálido y envolvente.",
   },
   {
@@ -940,7 +940,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Amaderado fresco, elegante y versátil.",
   },
   {
@@ -951,7 +951,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Oud suave, cálido y accesible.",
   },
   {
@@ -962,7 +962,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Oriental ambarado, con carácter regio.",
   },
   {
@@ -973,7 +973,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Floral afrutado, dulce y femenino.",
   },
   {
@@ -984,7 +984,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 730,
+    price: 750,
     description: "Aromático fresco, discreto y elegante.",
   },
   {
@@ -995,7 +995,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Floral oriental, cálido y sofisticado.",
   },
   {
@@ -1006,7 +1006,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 730,
+    price: 750,
     description: "Aromático fresco, versátil para el día a día.",
   },
   {
@@ -1017,7 +1017,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Floral rosado, suave y romántico.",
   },
   {
@@ -1028,7 +1028,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Amaderado especiado con carácter retro y elegante.",
   },
   {
@@ -1039,7 +1039,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 970,
+    price: 950,
     description: "Amaderado sofisticado de la línea premium Lattafa.",
   },
   {
@@ -1050,7 +1050,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1120,
+    price: 1100,
     description: "Oriental ambarado de alta gama, intenso y duradero.",
   },
   {
@@ -1061,7 +1061,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Fresco cítrico y energizante, para el día.",
   },
   {
@@ -1072,7 +1072,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 710,
+    price: 700,
     description: "Oriental ambarado, cálido y de gran proyección.",
     featured: true,
   },
@@ -1084,7 +1084,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 910,
+    price: 900,
     description: "Versión más intensa y especiada de 9pm.",
   },
   {
@@ -1106,7 +1106,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Amaderado fresco y versátil.",
   },
   {
@@ -1117,7 +1117,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 810,
+    price: 800,
     description: "Oriental ambarado, elegante y duradero.",
   },
   {
@@ -1128,7 +1128,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Oriental cálido con fondo dorado y ambarado.",
   },
   {
@@ -1139,7 +1139,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Unisex",
     size: "100ml",
-    price: 1320,
+    price: 1300,
     description: "Acuático fresco de alta gama, ligero y elegante.",
   },
   {
@@ -1150,7 +1150,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Oriental ambarado, cálido y lujoso.",
   },
   {
@@ -1161,7 +1161,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Oriental nocturno, intenso y envolvente.",
   },
   {
@@ -1172,7 +1172,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Oriental dulce con notas frutales.",
   },
   {
@@ -1183,7 +1183,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Amaderado ambarado, potente y de firma.",
     featured: true,
   },
@@ -1195,7 +1195,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1280,
+    price: 1300,
     description: "Amaderado especiado, cálido e intenso.",
   },
   {
@@ -1206,7 +1206,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1530,
+    price: 1550,
     description: "Versión parfum, más concentrada de King.",
   },
   {
@@ -1217,7 +1217,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1280,
+    price: 1300,
     description: "Amaderado tropical, cálido y vibrante.",
   },
   {
@@ -1228,7 +1228,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 1470,
+    price: 1450,
     description: "Oriental ambarado de edición dorada.",
   },
   {
@@ -1239,7 +1239,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 1280,
+    price: 1300,
     description: "Oriental especiado, cálido y sofisticado.",
   },
   {
@@ -1250,7 +1250,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1930,
+    price: 1950,
     description: "Versión fresca y cítrica de King.",
   },
   {
@@ -1261,7 +1261,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1280,
+    price: 1300,
     description: "Amaderado resinoso, intenso y duradero.",
   },
   {
@@ -1272,7 +1272,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Especiado amaderado, cálido y envolvente.",
   },
   {
@@ -1283,7 +1283,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Fresco acuático, elegante y versátil.",
   },
   {
@@ -1294,7 +1294,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Amaderado de lujo, intenso y sofisticado.",
   },
   {
@@ -1305,7 +1305,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Unisex",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Aromático limpio, elegante y ligero.",
   },
   {
@@ -1316,7 +1316,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Floral oriental de alta gama, envolvente.",
   },
   {
@@ -1327,7 +1327,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Floral elegante, suave y sofisticado.",
   },
   {
@@ -1338,7 +1338,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Amaderado de nicho, complejo y duradero.",
   },
   {
@@ -1349,7 +1349,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1220,
+    price: 1200,
     description: "Oriental misterioso y envolvente.",
   },
   {
@@ -1360,7 +1360,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Gourmand a chocolate y especias cálidas.",
   },
   {
@@ -1371,7 +1371,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Frutal dulce e intenso, con carácter atrevido.",
   },
   {
@@ -1382,7 +1382,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Floral de rosa, elegante y romántico.",
   },
   {
@@ -1393,7 +1393,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Oriental de lujo, cálido y sofisticado.",
   },
   {
@@ -1404,7 +1404,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Ámbar oriental de alta gama, cálido y envolvente.",
     featured: true,
   },
@@ -1427,7 +1427,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Ámbar dulce y especiado, intenso y duradero.",
   },
   {
@@ -1438,7 +1438,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Oriental dorado, suave y envolvente.",
   },
   {
@@ -1449,7 +1449,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Oud con azafrán, especiado y profundo.",
   },
   {
@@ -1460,7 +1460,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Unisex",
     size: "100ml",
-    price: 1420,
+    price: 1400,
     description: "Fresco acuático de alta gama, elegante.",
   },
   {
@@ -1471,7 +1471,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Amaderado fresco, moderno y versátil.",
   },
   {
@@ -1482,7 +1482,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Amaderado oscuro, intenso y elegante.",
   },
   {
@@ -1493,7 +1493,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 670,
+    price: 650,
     description: "Gourmand frutal, dulce y coqueto.",
   },
   {
@@ -1504,7 +1504,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 670,
+    price: 650,
     description: "Cítrico floral, fresco y luminoso.",
   },
   {
@@ -1515,7 +1515,7 @@ export const products: Product[] = [
     family: "Afrutado",
     gender: "Ella",
     size: "100ml",
-    price: 670,
+    price: 650,
     description: "Afrutado a durazno, fresco y jugoso.",
   },
   {
@@ -1526,7 +1526,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 670,
+    price: 650,
     description: "Especiado a tabaco, cálido y envolvente.",
   },
   {
@@ -1537,7 +1537,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1120,
+    price: 1100,
     description: "Amaderado moderno y sofisticado.",
   },
   {
@@ -1548,7 +1548,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Amaderado oscuro, misterioso e intenso.",
   },
   {
@@ -1559,7 +1559,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1120,
+    price: 1100,
     description: "Oud fresco, elegante y duradero.",
   },
   {
@@ -1570,7 +1570,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1120,
+    price: 1100,
     description: "Oriental cálido, envolvente y sofisticado.",
   },
   {
@@ -1581,7 +1581,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 770,
+    price: 750,
     description: "Especiado intenso, deportivo y fresco.",
   },
   {
@@ -1592,7 +1592,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 970,
+    price: 950,
     description: "Fresco cítrico y limpio, ideal para el día.",
   },
   {
@@ -1603,7 +1603,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 970,
+    price: 950,
     description: "Versión más concentrada e intensa de Nitro Red.",
   },
   {
@@ -1614,7 +1614,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 970,
+    price: 950,
     description: "Amaderado nocturno, intenso y envolvente.",
   },
   {
@@ -1625,7 +1625,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 970,
+    price: 950,
     description: "Fresco acuático, ligero y deportivo.",
   },
   {
@@ -1636,7 +1636,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "De la línea Game of Spades: amaderado de lujo.",
   },
   {
@@ -1647,7 +1647,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Amaderado ambarado, potente y sofisticado.",
   },
   {
@@ -1658,7 +1658,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Floral de lujo, luminoso y elegante.",
   },
   {
@@ -1669,7 +1669,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Unisex",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Oriental dorado, cálido y envolvente.",
   },
   {
@@ -1680,7 +1680,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Amaderado de nicho, complejo y duradero.",
   },
   {
@@ -1691,7 +1691,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Floral oriental de lujo, femenino y sofisticado.",
   },
   {
@@ -1702,7 +1702,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Unisex",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Amaderado fresco, elegante y moderno.",
   },
   {
@@ -1713,7 +1713,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Unisex",
     size: "100ml",
-    price: 1730,
+    price: 1750,
     description: "Oriental dulce e intenso, de gran presencia.",
   },
   {
@@ -1724,7 +1724,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Amaderado elegante, cálido y versátil.",
   },
   {
@@ -1735,7 +1735,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1010,
+    price: 1000,
     description: "Floral romántico, dulce y femenino.",
   },
   {
@@ -1746,7 +1746,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Fougère fresco de lavanda y vainilla; un ícono masculino desde los 90.",
     featured: true,
   },
@@ -1758,7 +1758,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Versión más dulce e intensa de Le Male, con vainilla y caramelo.",
   },
   {
@@ -1769,7 +1769,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "Más concentrado y amaderado que el EDT original.",
   },
   {
@@ -1780,7 +1780,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "Elixir intenso, cálido y de gran fijación.",
   },
   {
@@ -1791,7 +1791,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2480,
+    price: 2500,
     description: "Amaderado marino, versión concentrada de Le Beau.",
   },
   {
@@ -1802,7 +1802,7 @@ export const products: Product[] = [
     family: "Afrutado",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "Fresco tropical, con piña y coco.",
   },
   {
@@ -1813,7 +1813,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Amaderado fresco con salvia y coco.",
   },
   {
@@ -1824,7 +1824,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "El más intenso de la línea Le Male: dulce y envolvente.",
   },
   {
@@ -1835,7 +1835,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Gourmand con miel y maracuyá, atrevido y dulce.",
     featured: true,
   },
@@ -1858,7 +1858,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "La versión más dulce e intensa de la línea Scandal.",
   },
   {
@@ -1869,7 +1869,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1620,
+    price: 1600,
     description: "El acuático más icónico: fresco, marino y versátil.",
     featured: true,
   },
@@ -1881,7 +1881,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Versión más concentrada del clásico Acqua Di Giò.",
   },
   {
@@ -1892,7 +1892,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2380,
+    price: 2400,
     description: "Versión parfum, más cálida y duradera.",
   },
   {
@@ -1903,7 +1903,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 2380,
+    price: 2400,
     description: "Marino y aromático, más intenso que el original.",
   },
   {
@@ -1914,7 +1914,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 2190,
+    price: 2200,
     description: "Versión más intensa y dulce de Stronger With You.",
   },
   {
@@ -1925,7 +1925,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2190,
+    price: 2200,
     description: "Amaderado especiado, versión de alta concentración.",
   },
   {
@@ -1936,7 +1936,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Fresco y especiado, con canela y pera.",
   },
   {
@@ -1947,7 +1947,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 2580,
+    price: 2600,
     description: "Versión parfum del Acqua Di Giò Profondo.",
   },
   {
@@ -1958,7 +1958,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2480,
+    price: 2500,
     description: "La versión más concentrada de Stronger With You.",
   },
   {
@@ -1969,7 +1969,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2190,
+    price: 2200,
     description: "Floral moderno con pimienta rosa y bergamota.",
     featured: true,
   },
@@ -1981,7 +1981,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2770,
+    price: 2750,
     description: "Versión Uomo intensa, amaderada y especiada.",
   },
   {
@@ -2025,7 +2025,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2640,
+    price: 2650,
     description: "Versión más concentrada del Born in Roma original.",
   },
   {
@@ -2047,7 +2047,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2190,
+    price: 2200,
     description: "Versión más intensa y cálida de Y.",
   },
   {
@@ -2058,7 +2058,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "Amaderado especiado, más potente que el EDP.",
   },
   {
@@ -2069,7 +2069,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "La versión más concentrada de la línea Y.",
   },
   {
@@ -2080,7 +2080,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "Fresco y adictivo, con haba tonka.",
   },
   {
@@ -2091,7 +2091,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2190,
+    price: 2200,
     description: "Floral con lavanda y azahar, audaz y elegante.",
     featured: true,
   },
@@ -2114,7 +2114,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 2380,
+    price: 2400,
     description: "Gourmand adictivo de café y vainilla; un ícono nocturno.",
     featured: true,
   },
@@ -2126,7 +2126,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 2190,
+    price: 2200,
     description: "Floral afrutado y dulce, romántico y moderno.",
   },
   {
@@ -2137,7 +2137,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Gourmand suave y cremoso, dulce sin empalagar.",
   },
   {
@@ -2148,7 +2148,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Floral verde y limpio, fresco y minimalista.",
   },
   {
@@ -2159,7 +2159,7 @@ export const products: Product[] = [
     family: "Afrutado",
     gender: "Ella",
     size: "100ml",
-    price: 820,
+    price: 800,
     description: "Afrutado alegre y ligero, ideal para el día.",
   },
   {
@@ -2181,7 +2181,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Floral fresco con un toque afrutado.",
   },
   {
@@ -2192,7 +2192,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Gourmand a chicle, dulce y divertido.",
   },
   {
@@ -2203,7 +2203,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Versión más lujosa y cremosa de la línea Toy.",
   },
   {
@@ -2225,7 +2225,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Versión más cálida y dorada de Fresh.",
   },
   {
@@ -2236,7 +2236,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "Gourmand floral para él, dulce y original.",
   },
   {
@@ -2247,7 +2247,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Cítrico mediterráneo, fresco y ligero — un clásico del verano.",
     featured: true,
   },
@@ -2259,7 +2259,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Aromático clásico italiano, fresco y elegante.",
   },
   {
@@ -2270,7 +2270,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 1330,
+    price: 1350,
     description: "Especiado ambarado, cálido y sofisticado.",
   },
   {
@@ -2281,7 +2281,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Ella",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "El clásico cítrico mediterráneo femenino.",
     featured: true,
   },
@@ -2293,7 +2293,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1490,
+    price: 1500,
     description: "Floral afrutado y dulce, fresco y moderno.",
   },
   {
@@ -2304,7 +2304,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Versión más intensa y amaderada de K.",
   },
   {
@@ -2315,7 +2315,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1330,
+    price: 1350,
     description: "Fresco y amaderado, con salida cítrica.",
   },
   {
@@ -2326,7 +2326,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Aromático clásico, fresco y atemporal.",
   },
   {
@@ -2337,7 +2337,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Fresco y minimalista, unisex por excelencia.",
   },
   {
@@ -2348,7 +2348,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Unisex",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "El unisex más icónico de los 90: cítrico y limpio.",
     featured: true,
   },
@@ -2371,7 +2371,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Versión más fresca y frutal de CK One, para ella.",
   },
   {
@@ -2382,7 +2382,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Fresco y dulce, pensado para la noche joven.",
   },
   {
@@ -2415,7 +2415,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Fresco e intenso, edición Shock de CK One.",
   },
   {
@@ -2426,7 +2426,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1330,
+    price: 1350,
     description: "Aromático fresco con menta y manzana verde — muy popular.",
     featured: true,
   },
@@ -2438,7 +2438,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Versión más dulce e intensa de Eros.",
   },
   {
@@ -2449,7 +2449,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "La versión más concentrada de la línea Eros.",
   },
   {
@@ -2460,7 +2460,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Cítrico fresco y ligero, ideal para el día.",
   },
   {
@@ -2471,7 +2471,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "Aromático mediterráneo, fresco y elegante.",
   },
   {
@@ -2482,7 +2482,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Versión más fresca y energizante de Eros.",
   },
   {
@@ -2493,7 +2493,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Especiado cálido, versión intensa de Eros.",
   },
   {
@@ -2504,7 +2504,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "Aromático acuático, fresco y moderno.",
   },
   {
@@ -2515,7 +2515,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Floral afrutado, elegante y femenino.",
   },
   {
@@ -2526,7 +2526,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1330,
+    price: 1350,
     description: "Floral afrutado ligero; uno de los más vendidos de Versace.",
     featured: true,
   },
@@ -2538,7 +2538,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Versión más intensa y cálida de Bright Crystal.",
   },
   {
@@ -2549,7 +2549,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "Floral cítrico, luminoso y fresco.",
   },
   {
@@ -2560,7 +2560,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1310,
+    price: 1300,
     description: "Floral acuático, fresco y ligero.",
   },
   {
@@ -2571,7 +2571,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1330,
+    price: 1350,
     description: "Floral dulce y elegante.",
   },
   {
@@ -2582,7 +2582,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "Floral acuático, versión femenina de Dylan Blue.",
   },
   {
@@ -2615,7 +2615,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 940,
+    price: 950,
     description: "Fresco y afrutado, juvenil y ligero.",
   },
   {
@@ -2626,7 +2626,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1160,
+    price: 1150,
     description: "Amaderado especiado, el clásico de traje de Boss.",
     featured: true,
   },
@@ -2638,7 +2638,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 730,
+    price: 750,
     description: "Fresco y deportivo, energizante.",
   },
   {
@@ -2649,7 +2649,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Especiado seductor con notas de cacao.",
   },
   {
@@ -2671,7 +2671,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1070,
+    price: 1050,
     description: "Amaderado especiado, aventurero y cálido.",
   },
   {
@@ -2704,7 +2704,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Especiado cálido, versión intensa de Legend.",
   },
   {
@@ -2715,7 +2715,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 740,
+    price: 750,
     description: "Fresco y ligero, ideal para el día.",
   },
   {
@@ -2737,7 +2737,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Amaderado elegante, versión platino de Explorer.",
   },
   {
@@ -2748,7 +2748,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Fresco urbano, el clásico neoyorquino.",
   },
   {
@@ -2759,7 +2759,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Amaderado seductor, versión intensa de 212.",
   },
   {
@@ -2770,7 +2770,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1580,
+    price: 1600,
     description: "Dulce y especiado, para la noche.",
   },
   {
@@ -2781,7 +2781,7 @@ export const products: Product[] = [
     family: "Oriental",
     gender: "Él",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Versión más oscura e intensa de 212 VIP.",
   },
   {
@@ -2803,7 +2803,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "La versión más concentrada de Bad Boy.",
   },
   {
@@ -2814,7 +2814,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Amaderado especiado con anís; un ícono reciente.",
     featured: true,
   },
@@ -2826,7 +2826,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1610,
+    price: 1600,
     description: "Fresco y adictivo, edición Heroes.",
   },
   {
@@ -2837,7 +2837,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Versión fresca y azulada de Bad Boy.",
   },
   {
@@ -2859,7 +2859,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Fresco y elegante, un clásico de CH.",
   },
   {
@@ -2870,7 +2870,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "El clásico floral urbano de Carolina Herrera.",
   },
   {
@@ -2881,7 +2881,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Versión más sensual y cálida de 212.",
   },
   {
@@ -2892,7 +2892,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Dulce y afrutado, versión femenina de Heroes.",
   },
   {
@@ -2915,7 +2915,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Floral cálido, elegante y clásico.",
   },
   {
@@ -2926,7 +2926,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 2290,
+    price: 2300,
     description: "Versión más intensa y floral de Good Girl.",
   },
   {
@@ -2937,7 +2937,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 2380,
+    price: 2400,
     description: "Fresco y especiado; el masculino más vendido del mundo.",
     featured: true,
   },
@@ -2949,7 +2949,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 2670,
+    price: 2650,
     description: "Versión más cálida y especiada de Sauvage.",
   },
   {
@@ -2960,7 +2960,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 2860,
+    price: 2850,
     description: "La versión más concentrada e intensa de Sauvage.",
   },
   {
@@ -2971,7 +2971,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Amaderado floral con un toque de gasolina; icónico y audaz.",
   },
   {
@@ -2982,7 +2982,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2380,
+    price: 2400,
     description: "Floral de lujo, elegante y atemporal.",
     featured: true,
   },
@@ -2994,7 +2994,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2770,
+    price: 2750,
     description: "Floral chipre romántico, un clásico de la casa.",
   },
   {
@@ -3005,7 +3005,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2480,
+    price: 2500,
     description: "Floral fresco y delicado, versión ligera de Miss Dior.",
   },
   {
@@ -3016,7 +3016,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 2480,
+    price: 2500,
     description: "Floral de rosa fresca, luminoso y alegre.",
   },
   {
@@ -3027,7 +3027,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Gourmand afrutado, dulce y juguetón.",
   },
   {
@@ -3038,7 +3038,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Floral dulce, divertido y accesible.",
   },
   {
@@ -3049,7 +3049,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 470,
+    price: 450,
     description: "Acuático fresco y accesible para el día a día.",
   },
   {
@@ -3060,7 +3060,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 470,
+    price: 450,
     description: "Fresco marino, ligero y versátil.",
   },
   {
@@ -3071,7 +3071,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 370,
+    price: 350,
     description: "El acuático más icónico de Nautica.",
   },
   {
@@ -3082,7 +3082,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 470,
+    price: 450,
     description: "Fresco y deportivo, energizante.",
   },
   {
@@ -3093,7 +3093,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Gourmand de iris y praliné; un ícono francés.",
     featured: true,
   },
@@ -3105,7 +3105,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Versión más fresca y floral de La Vie Est Belle.",
   },
   {
@@ -3116,7 +3116,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1970,
+    price: 1950,
     description: "Versión más intensa y cálida del original.",
   },
   {
@@ -3149,7 +3149,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Floral oriental, romántico y clásico.",
   },
   {
@@ -3160,7 +3160,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Floral cálido y envolvente.",
   },
   {
@@ -3171,7 +3171,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Fresco y casual, el clásico americano.",
   },
   {
@@ -3182,7 +3182,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Floral fresco, versión femenina del clásico Tommy.",
   },
   {
@@ -3193,7 +3193,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Fresco y amaderado, moderno y versátil.",
   },
   {
@@ -3204,7 +3204,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Versión más intensa y cálida de Impact.",
   },
   {
@@ -3215,7 +3215,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Floral afrutado, fresco y juvenil.",
   },
   {
@@ -3226,7 +3226,7 @@ export const products: Product[] = [
     family: "Cítrico",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Versión fresca y energizante de Impact.",
   },
   {
@@ -3248,7 +3248,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Especiado cálido, versión nocturna de Wanted.",
   },
   {
@@ -3259,7 +3259,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1330,
+    price: 1350,
     description: "Especiado dulce con ron y canela.",
     featured: true,
   },
@@ -3271,7 +3271,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Versión más dulce e intensa de The Most Wanted.",
   },
   {
@@ -3282,7 +3282,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "La versión más concentrada de The Most Wanted.",
   },
   {
@@ -3315,7 +3315,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Floral especiado, atrevido y original.",
   },
   {
@@ -3326,7 +3326,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Aromático fresco, versión masculina de Halloween.",
   },
   {
@@ -3370,7 +3370,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Especiado dulce con canela y cuero; un ícono en frasco de oro.",
     featured: true,
   },
@@ -3382,7 +3382,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Versión más concentrada e intensa de One Million.",
   },
   {
@@ -3404,7 +3404,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1520,
+    price: 1500,
     description: "Fresco marino y especiado; un ícono deportivo.",
     featured: true,
   },
@@ -3416,7 +3416,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Él",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Versión más dulce e intensa de Invictus Victory.",
   },
   {
@@ -3427,7 +3427,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Aromático tecnológico, fresco y lavanda.",
   },
   {
@@ -3438,7 +3438,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1910,
+    price: 1900,
     description: "Versión más intensa y especiada de Invictus.",
   },
   {
@@ -3449,7 +3449,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1810,
+    price: 1800,
     description: "Versión más fresca y acuática de Invictus.",
   },
   {
@@ -3460,7 +3460,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Floral moderno en frasco de micrófono; audaz y dulce.",
   },
   {
@@ -3471,7 +3471,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Versión más fresca y floral de Fame.",
   },
   {
@@ -3482,7 +3482,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1710,
+    price: 1700,
     description: "Floral dulce y sensual.",
   },
   {
@@ -3504,7 +3504,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Aromático amaderado, clásico y elegante.",
   },
   {
@@ -3515,7 +3515,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Fresco acuático; uno de los más vendidos de Ralph Lauren.",
     featured: true,
   },
@@ -3527,7 +3527,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Especiado dulce, energético y vibrante.",
   },
   {
@@ -3549,7 +3549,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 1360,
+    price: 1350,
     description: "Versión más fresca y energética de Polo Red.",
   },
   {
@@ -3560,7 +3560,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Aromático clásico y accesible.",
   },
   {
@@ -3571,7 +3571,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Floral fresco y accesible.",
   },
   {
@@ -3582,7 +3582,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Amaderado especiado, más intenso que el original.",
   },
   {
@@ -3593,7 +3593,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Floral afrutado, fresco y ligero.",
   },
   {
@@ -3604,7 +3604,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Floral limpio y delicado.",
   },
   {
@@ -3615,7 +3615,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Floral dulce, cálido y accesible.",
   },
   {
@@ -3626,7 +3626,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Fresco acuático y ligero.",
   },
   {
@@ -3637,7 +3637,7 @@ export const products: Product[] = [
     family: "Especiado",
     gender: "Él",
     size: "100ml",
-    price: 660,
+    price: 650,
     description: "Especiado cálido, versión intensa de 360.",
   },
   {
@@ -3648,7 +3648,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Aromático fresco, clásico y versátil.",
   },
   {
@@ -3659,7 +3659,7 @@ export const products: Product[] = [
     family: "Acuático",
     gender: "Él",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Fresco acuático y ligero.",
   },
   {
@@ -3670,7 +3670,7 @@ export const products: Product[] = [
     family: "Amaderado",
     gender: "Él",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Amaderado elegante, versión platino.",
   },
   {
@@ -3681,7 +3681,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Floral afrutado, soñador y fresco.",
   },
   {
@@ -3692,7 +3692,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Floral de rosa, fresco y romántico.",
   },
   {
@@ -3703,7 +3703,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Floral clásico de la casa Coach.",
   },
   {
@@ -3714,7 +3714,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Floral blanco, limpio y elegante.",
   },
   {
@@ -3725,7 +3725,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Versión cálida y dorada de Coach Dreams.",
   },
   {
@@ -3736,7 +3736,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Floral dulce, glamouroso y accesible.",
   },
   {
@@ -3747,7 +3747,7 @@ export const products: Product[] = [
     family: "Aromático",
     gender: "Él",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Aromático fresco y accesible.",
   },
   {
@@ -3758,7 +3758,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Oriental dulce, cálido y brillante.",
   },
   {
@@ -3769,7 +3769,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Floral afrutado, dulce y femenino.",
   },
   {
@@ -3780,7 +3780,7 @@ export const products: Product[] = [
     family: "Floral",
     gender: "Ella",
     size: "100ml",
-    price: 760,
+    price: 750,
     description: "Floral oriental, glamouroso y cálido.",
   },
   {
@@ -3791,7 +3791,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1040,
+    price: 1050,
     description: "Gourmand floral, dulce y sofisticado.",
     featured: true,
   },
@@ -3803,7 +3803,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1240,
+    price: 1250,
     description: "Gourmand de algodón de azúcar y coco; muy popular entre jóvenes.",
     featured: true,
   },
@@ -3837,7 +3837,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1180,
+    price: 1200,
     description: "Gourmand floral, dulce y moderno.",
   },
   {
@@ -3848,7 +3848,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Gourmand de vainilla, cálido y reconfortante.",
   },
   {
@@ -3859,7 +3859,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1140,
+    price: 1150,
     description: "Gourmand afrutado, fresco y juvenil.",
   },
   {
@@ -3870,7 +3870,7 @@ export const products: Product[] = [
     family: "Dulce",
     gender: "Ella",
     size: "100ml",
-    price: 1430,
+    price: 1450,
     description: "Versión más floral y suave de Cloud.",
   },
 ];

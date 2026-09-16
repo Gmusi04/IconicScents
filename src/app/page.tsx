@@ -1,3 +1,4 @@
+import { BrandStrip } from "@/components/BrandStrip";
 import { Catalog } from "@/components/Catalog";
 import { Contact } from "@/components/Contact";
 import { FAQ } from "@/components/FAQ";
@@ -7,6 +8,7 @@ import { Hero } from "@/components/Hero";
 import { HowToBuy } from "@/components/HowToBuy";
 import { MobileTabBar } from "@/components/MobileTabBar";
 import type { PhotoKind } from "@/components/PhotoView";
+import { SectionDivider } from "@/components/SectionDivider";
 import { Social } from "@/components/Social";
 import { TrustBar } from "@/components/TrustBar";
 import { products } from "@/data/products";
@@ -47,9 +49,11 @@ export default function Home() {
       <main className="pb-16 md:pb-0">
         <Hero />
         <TrustBar />
+        <BrandStrip />
         <Catalog products={productsWithExists} />
         <HowToBuy />
         <Social feed={socialWithExists} />
+        <SectionDivider />
         <FAQ />
         <Contact />
       </main>
