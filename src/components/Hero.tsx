@@ -2,12 +2,44 @@ import Image from "next/image";
 import { products } from "@/data/products";
 import { site } from "@/data/site";
 
+const showcase = [
+  {
+    slug: "rasasi-hawas-kobra",
+    brand: "Rasasi",
+    name: "Hawas Kobra",
+    alt: "Rasasi Hawas Kobra",
+    className: "left-[2%] top-0 h-[58%] w-[56%]",
+    delay: "enter-delay-2",
+  },
+  {
+    slug: "dior-sauvage-edt",
+    brand: "Dior",
+    name: "Sauvage EDT",
+    alt: "Dior Sauvage Eau de Toilette",
+    className: "bottom-0 right-0 h-[66%] w-[60%]",
+    delay: "enter-delay-3",
+    featured: true,
+  },
+];
+
 export function Hero() {
   return (
     <section
       id="top"
       className="relative w-full overflow-hidden bg-[var(--color-cream)] pt-24"
     >
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 opacity-[0.05]"
+        style={{
+          backgroundImage:
+            "radial-gradient(var(--color-ink) 1px, transparent 1px)",
+          backgroundSize: "24px 24px",
+          maskImage:
+            "radial-gradient(ellipse 60% 60% at 78% 40%, black, transparent)",
+        }}
+      />
+
       <div className="container-editorial grid w-full items-center gap-12 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:py-24">
         <div>
           <p className="enter-fade-up mb-4 text-xs uppercase tracking-[0.3em] text-[var(--color-gold-dark)]">
@@ -46,36 +78,44 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto aspect-square w-full max-w-sm lg:max-w-none">
+        <div className="relative mx-auto aspect-[4/5] w-full max-w-sm lg:max-w-none">
           <div className="enter-fade-scale absolute inset-[10%] rounded-full bg-[var(--color-gold)]/[0.14] blur-3xl" />
-          <div className="enter-fade-scale enter-delay-1 absolute inset-[13%] rounded-full border border-dashed border-[var(--color-gold)]/30" />
-          <div className="enter-fade-scale enter-delay-1 absolute inset-[22%] rounded-full border border-[var(--color-line)]" />
+          <div className="enter-fade-scale enter-delay-1 absolute inset-x-[6%] inset-y-[12%] rounded-[3rem] border border-dashed border-[var(--color-gold)]/25" />
 
-          <div className="enter-fade-scale enter-delay-2 absolute left-[4%] top-[10%] h-[52%] w-[52%] drop-shadow-[0_18px_28px_rgba(0,0,0,0.14)]">
-            <Image
-              src="/images/products/rasasi-hawas-kobra.jpg"
-              alt="Rasasi Hawas Kobra"
-              fill
-              sizes="(min-width: 1024px) 320px, 220px"
-              className="object-contain"
-              priority
-            />
-          </div>
+          <p className="enter-fade-up enter-delay-1 absolute -top-8 left-1 text-[10px] uppercase tracking-[0.22em] text-[var(--color-gold-dark)] lg:left-3">
+            Piezas más pedidas
+          </p>
 
-          <div className="enter-fade-scale enter-delay-3 absolute bottom-[6%] right-[2%] h-[62%] w-[62%] drop-shadow-[0_26px_38px_rgba(0,0,0,0.18)]">
-            <Image
-              src="/images/products/dior-sauvage-edt.jpg"
-              alt="Dior Sauvage Eau de Toilette"
-              fill
-              sizes="(min-width: 1024px) 380px, 260px"
-              className="object-contain"
-              priority
-            />
-          </div>
-
-          <div className="enter-fade-scale enter-delay-4 absolute right-[4%] top-[4%] rounded-full bg-[var(--color-ink)] px-3.5 py-2 text-[10px] uppercase tracking-[0.14em] text-[var(--color-cream)] shadow-[0_10px_24px_rgba(0,0,0,0.25)]">
-            Piezas icónicas
-          </div>
+          {showcase.map((item) => (
+            <div
+              key={item.slug}
+              className={`enter-fade-scale ${item.delay} absolute flex flex-col overflow-hidden rounded-2xl border bg-white shadow-[0_24px_48px_-18px_rgba(0,0,0,0.22)] ${
+                item.featured ? "border-[var(--color-gold)]/60 z-10" : "border-[var(--color-line)]"
+              } ${item.className}`}
+            >
+              {item.featured && (
+                <span className="absolute left-3 top-3 z-10 rounded-full bg-[var(--color-ink)]/85 px-3 py-1 text-[9px] uppercase tracking-[0.16em] text-[var(--color-cream)]">
+                  Favorito
+                </span>
+              )}
+              <div className="relative flex-1">
+                <Image
+                  src={`/images/products/${item.slug}.jpg`}
+                  alt={item.alt}
+                  fill
+                  sizes="(min-width: 1024px) 320px, 220px"
+                  className="object-contain p-4"
+                  priority
+                />
+              </div>
+              <div className="border-t border-[var(--color-line)] px-3.5 py-2.5">
+                <p className="text-[9px] uppercase tracking-[0.14em] text-[var(--color-gold-dark)]">
+                  {item.brand}
+                </p>
+                <p className="truncate text-[13px] text-[var(--color-ink)]">{item.name}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

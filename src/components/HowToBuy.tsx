@@ -20,11 +20,14 @@ export function HowToBuy() {
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-10 md:grid-cols-3 md:gap-8">
+        <div className="relative mt-14 grid gap-10 md:grid-cols-3 md:gap-8">
+          <div className="pointer-events-none absolute inset-x-0 top-6 hidden h-px bg-[var(--color-cream)]/12 md:block" />
           {steps.map((s, i) => (
-            <Reveal key={s.n} delay={i * 0.1}>
-              <p className="font-serif-display text-3xl text-[var(--color-gold)]">{s.n}</p>
-              <h3 className="mt-3 text-lg font-medium text-[var(--color-cream)]">{s.title}</h3>
+            <Reveal key={s.n} delay={i * 0.1} className="relative">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[var(--color-gold)]/40 bg-[var(--color-ink)] font-serif-display text-lg text-[var(--color-gold)]">
+                {s.n}
+              </div>
+              <h3 className="mt-4 text-lg font-medium text-[var(--color-cream)]">{s.title}</h3>
               <p className="mt-2 max-w-xs text-sm leading-relaxed text-[var(--color-cream)]/70">
                 {s.body}
               </p>

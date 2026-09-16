@@ -24,16 +24,24 @@ export function Contact() {
               href={site.whatsapp.href}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full bg-[var(--color-gold)] px-6 py-3 text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-gold-dark)]"
+              className="inline-flex items-center gap-2 rounded-full bg-[var(--color-gold)] px-6 py-3 text-sm font-medium text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:bg-[var(--color-gold-dark)]"
             >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 5h16v11H8l-4 4V5Z" />
+              </svg>
               WhatsApp · {site.whatsapp.display}
             </a>
             <a
               href={site.social.instagram}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:border-[var(--color-ink)]/50"
+              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-ink)]/20 px-6 py-3 text-sm text-[var(--color-ink)] transition duration-150 ease-out active:scale-[0.97] hover:border-[var(--color-ink)]/50"
             >
+              <svg viewBox="0 0 24 24" className="h-4 w-4 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="4.5" />
+                <circle cx="12" cy="12" r="3.4" />
+                <path d="M16.2 7.4h.01" />
+              </svg>
               Instagram · {site.social.instagramHandle}
             </a>
             {site.email && (
