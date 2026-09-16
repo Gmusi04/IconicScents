@@ -15,7 +15,6 @@ const socialFeed: { src: string; alt: string; kind: PhotoKind }[] = [
   { src: "/images/ig-2.jpg", alt: "Publicación de Instagram de Iconic Scents", kind: "flatlay" },
   { src: "/images/ig-3.jpg", alt: "Publicación de Instagram de Iconic Scents", kind: "lifestyle" },
   { src: "/images/ig-4.jpg", alt: "Publicación de Instagram de Iconic Scents", kind: "detail" },
-  { src: "/images/ig-5.jpg", alt: "Publicación de Instagram de Iconic Scents", kind: "bottle" },
 ];
 
 function findLogoSrc(): string | null {
