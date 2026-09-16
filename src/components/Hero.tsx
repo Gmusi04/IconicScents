@@ -4,18 +4,18 @@ import { site } from "@/data/site";
 
 const showcase = [
   {
-    slug: "rasasi-hawas-kobra",
+    slug: "rasasi-hawas-ice",
     brand: "Rasasi",
-    name: "Hawas Kobra",
-    alt: "Rasasi Hawas Kobra",
+    name: "Hawas Ice",
+    alt: "Rasasi Hawas Ice",
     className: "left-[2%] top-0 h-[58%] w-[56%]",
     delay: "enter-delay-2",
   },
   {
-    slug: "dior-sauvage-edt",
-    brand: "Dior",
-    name: "Sauvage EDT",
-    alt: "Dior Sauvage Eau de Toilette",
+    slug: "french-avenue-liquid-brun",
+    brand: "French Avenue",
+    name: "Liquid Brun",
+    alt: "French Avenue Liquid Brun",
     className: "bottom-0 right-0 h-[66%] w-[60%]",
     delay: "enter-delay-3",
     featured: true,
